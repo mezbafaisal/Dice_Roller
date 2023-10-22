@@ -1,15 +1,14 @@
-# Dice_Roller
 Creating a simple dice roller project in Python is a fun way to practice your programming skills. In this project, you will develop a program that emulates rolling a standard six-sided die. Users can roll the die and receive a random number between 1 and 6, just like rolling a physical die.
+
 Here's a step-by-step description of how to create a dice roller in Python:
 
 1. User Interface:
 You can create a simple text-based interface to interact with the user. For example, you might display a menu like this:
 
-markdown
-Copy code
+
 Welcome to the Dice Roller!
 1. Roll the die
-2. Quit
+   
 2. Random Number Generation:
 Use Python's random module to generate a random number between 1 and 6. You can do this with random.randint(1, 6).
 
@@ -23,10 +22,6 @@ You can implement a loop to keep the program running until the user decides to q
 Handle invalid inputs gracefully. If the user enters an option that's not in the menu, provide feedback.
 
 Here's a simple code snippet to get you started:
-
-python
-Copy code
-import random
 
 while True:
     print("Welcome to the Dice Roller!")
@@ -44,7 +39,3 @@ while True:
         break
     else:
         print("Invalid choice. Please select 1 or 2.")
-
-
-
-
