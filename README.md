@@ -1,3 +1,4 @@
+Dice Roller:
 Creating a Dice Roller project in Python, a program that emulates rolling a standard six-sided die. Users can roll the die and receive a random number between 1 and 6, just like rolling a physical die.
 
 Here's a step-by-step description of how to create a dice roller in Python:
